@@ -1,0 +1,270 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+	background: url(./home7-slider1.png) no-repeat top center;
+	padding-top: 20px;
+    padding-bottom: 20%;
+}
+.container .middle h1 {
+	font-size: 56px;
+	/* margin-left: 58px; */
+	text-align: center;
+	font-weight: 900;
+	line-height: 70px;
+	margin-top: 113px;
+}
+.container .middle a:hover{
+    background-color: #333333;
+}
+
+.container .middle a {
+	text-decoration: none;
+	color: #fff;
+	background-color: crimson;
+	display: inline-block;
+	padding: 8px 26px;
+	text-align: center;
+	font-size: 25px;
+	margin: 67px auto;
+    transition: all .4s ease-in-out;
+}
+.header .logo img{
+    width: 200px;
+    height: auto;
+}
+.menu ul{
+    list-style: none;
+
+    text-align: center;
+}
+.menu ul li {
+	display: inline-block;
+	padding: 10px 15px;
+	margin: 0 9px;
+	position: relative;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+	text-transform: uppercase;
+
+}
+/* dropdown down menu  */
+.menu ul li ul {
+	position: absolute;
+	top: 100%;
+	left: -71px;
+	width: 303px;
+	text-align: left;
+	opacity: 0;
+	visibility:hidden;
+	transform: scaleY(0);
+	transform-origin: top center;
+	transition: all .4s ease-in-out;
+}
+.menu ul li:hover > a{
+	color: #d11837;
+}
+.menu ul li:hover ul{
+	opacity: 1;
+	visibility: visible;
+	transform: scaleY(1);
+	transform-origin: top center;
+}
+.menu ul li ul li{
+	display: block;
+}
+.menu ul li ul li a{}
+.menu ul li ul li a:hover{}
+.header-menu {}
+.header-menu  ul{}
+.header-menu  ul li{
+    display: inline-block;
+}
+.header-menu  ul li a{
+    color: #fff;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    width: 36px;
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 5px 9px;
+}
+.header-menu  ul li i{}
+.header-menu ul li a::after {
+	content: attr(faruk);
+	color: #f1e6e6;
+	position: absolute;
+	top: -11px;
+	color: rgb(184, 25, 25);
+	font-size: 13px;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	display: inline-block;
+	right: -13px;
+	font-size: 19px;
+}
+
+/* baner */
+.baner{
+	position: relative;
+}
+.baner-item {
+	position: absolute;
+	top: -134px;
+	left: 0;
+	width: 100%;
+}
+.baner .baner-link{
+	display: inline-block;
+	position: relative;
+}
+.baner .baner-link::after {
+	/* z-index: 2; */
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	content: "\f0a9";
+	position: absolute;
+	right: 51%;
+	top: 47%;
+	opacity: 0;
+	background: transparent;
+	display: inline-block;
+	font-size: 30px;
+	color: rgb(226, 240, 235);
+	transition: all .5s ease-in-out;
+
+}
+.baner-link:hover::after{
+	opacity: 1;
+}
+.section {
+    margin-top: 15%;
+}
+.section-item h1 a{
+	text-decoration: none;
+    margin: 20px 0;
+    text-transform: uppercase;
+	color: #333333;
+}
+.section-item h1 a:hover{
+	color: #d11837;
+}
+.product-item .button-top {
+	color: #d11837;
+	text-decoration: none;
+	font-size: 11px;
+}
+.product-item a:hover{
+	color: #d11837;
+	text-decoration: none;
+}
+.product-item a{
+	color: #333333;
+	font-weight:bold;
+	text-decoration: none;
+	margin-top: 7px;
+	display: inline-block;
+}
+.product-item span {
+	color: #d11837;
+	margin-left: 46%;
+	display: inline-block;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.button{
+	border-top: 1px solid #000;
+
+
+}
+.button a{
+	display: inline-block;
+	text-decoration: none;
+	color: #666674;
+
+}
+.width img {
+	width: 100%;
+	height: 98%;
+}
+.width-bottom {
+	background-color: rgb(121, 13, 13);
+	padding: 73px 0 0 102px;
+	position: relative;
+	font-size: 0px;
+}
+.width-bottom span {
+	display: inline-block;
+	font-size: 50px;
+	float: left;
+	width: 55px;
+	margin-left: -38px;
+	top: 75px;
+	position: absolute;
+	left: 75px;
+	/* right: 0; */
+}
+.width-bottom p{
+	font-size: 11px;
+
+}
+.width-bottom .second {
+	left: 69%;
+	top: 74px;
+	font-size: 50px;
+}
+.width-bottom .second-top {
+	left: 37.3%;
+}
+/* fotter */
+
+.fotter-part{
+	background: #000;
+	text-align: center;
+	/*! padding: 31px 0; */
+}
+
+.right h1{
+	font-size: 21px;
+	margin: 51px 0;
+	color: #fff;
+}
+
+
+.social ul{}
+.social ul li{
+    display: inline-block;
+
+
+
+}
+.social ul li a{
+    display: block;
+    text-decoration: none;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 32px;
+    background: blue;
+    border-radius: 50%;
+    margin: 33px 15px;
+    color: #000;
+    transition: all .5s ease-in-out;
+
+}
+.social ul li a:hover{
+    background: rgb(218, 143, 143);
+    color: #eee;
+    transition: all .5s ease-in-out;
+    position: ;
+    visibility: ;
+   
+}
